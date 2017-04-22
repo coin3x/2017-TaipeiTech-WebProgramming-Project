@@ -10,3 +10,21 @@ This is the homework project for CSIE Web Programming Course of National Taipei 
 
 ## 說明
 head、header、footer 請參考 template.html
+
+## 網站地圖
+```
+/index.html 首頁
+│
+├─ /champions/ 英雄列表
+│    ├─ /champions/annie.html 英雄-Annie介紹
+│    ├─  :
+│    └─  :
+│
+├─ /runes/ 符文列表
+│
+├─ /mastery/ 天賦列表
+│
+├─ /blogs/ 文章列表
+│
+└─ /items/ 道具列表
+```
