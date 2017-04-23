@@ -83,6 +83,11 @@
   color: #8b1014 !important;
 }
 
+.brand-logo{
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-weight: bold;
+}
+
 .red {
   background-color: #F44336 !important;
 }
@@ -4247,6 +4252,12 @@ nav .brand-logo {
   font-size: 2.1rem;
   padding: 0;
   white-space: nowrap;
+}
+
+nav .brand-logo img{
+  padding-top: 5px;
+  width: 120px;
+  height: 55px;
 }
 
 nav .brand-logo.center {
