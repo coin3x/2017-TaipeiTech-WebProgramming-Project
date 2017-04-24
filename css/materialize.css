@@ -1012,11 +1012,11 @@
 }
 
 .teal.lighten-2 {
-  background-color: #4db6ac !important;
+  background-color: #2de2d1 !important;
 }
 
 .teal-text.text-lighten-2 {
-  color: #4db6ac !important;
+  color: #2de2d1 !important;
 }
 
 .teal.lighten-1 {
@@ -2749,6 +2749,11 @@ video.responsive-video {
   height: 500px;
 }
 
+.parallax-container h5 {
+  font-weight: normal;
+  font-size: 32px;
+}
+
 .parallax {
   position: absolute;
   top: 0;
@@ -4251,8 +4256,8 @@ nav .brand-logo {
 
 nav .brand-logo img{
   padding-top: 5px;
-  width: 120px;
-  height: 55px;
+  width: 140px;
+  height: 60px;
 }
 
 nav .brand-logo.center {
@@ -4468,8 +4473,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 h1 {
-  font-size: 4.2rem;
-  line-height: 110%;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 150px;
   margin: 2.1rem 0 1.68rem 0;
 }
 

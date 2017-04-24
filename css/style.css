@@ -5,6 +5,11 @@
  *
  * Made By MaterializeCSS.com
  */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+  html {
+      font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+  }
 
 nav ul a,
 nav .brand-logo {
