@@ -11,6 +11,11 @@ html {
   font-family: 'Roboto', 'Noto Sans TC', sans-serif;
 }
 
+.rune-icon {
+  width: 100px;
+  height: 100px;
+}
+
 .mastery-background {
   position: relative;
   background-image: url(../img/mastery/mastery_background.png);
