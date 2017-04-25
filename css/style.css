@@ -6,6 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+html {
+  font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+}
+
 .mastery-background {
   position: relative;
   background-image: url(../img/mastery/mastery_background.png);
