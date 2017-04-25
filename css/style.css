@@ -6,6 +6,35 @@
  * Made By MaterializeCSS.com
  */
 
+.mastery-background {
+  position: relative;
+  background-image: url(../img/mastery/mastery_background.png);
+  width: 985px;
+  height: 508px;
+}
+
+.mastery-icon {
+  position: absolute;
+  cursor: pointer;
+}
+
+.mastery-list-icon {
+  margin: auto;
+}
+
+.mastery-icon-rect {
+  background: url(../img/mastery/mastery_icon0.png);
+  width: 42px;
+  height: 42px;
+}
+
+.mastery-icon-circ {
+  background: url(../img/mastery/mastery_icon1.png);
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
