@@ -5,6 +5,11 @@
  *
  * Made By MaterializeCSS.com
  */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+html {
+  font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+}
 
 nav ul a,
 nav .brand-logo {
@@ -54,4 +59,131 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.chp-path{
+  padding:5px;
+  margin-top:25px;
+  border-bottom-color: black;
+  border-bottom-style:solid;
+  border-bottom-width: 1px;
+
+}
+.cho-path a{
+  margin-left:5px;
+  margin-right: 5px;
+  font-size:14px;
+}
+
+.chp-path span{
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size:14px;
+}
+.chp-sort{
+  padding:25px;
+  margin-top:20px;
+  margin-bottom:30px;
+  margin-right: 15px;
+  padding:6px 10px 5px 10px;
+  border-color: rgb(239,239,239);
+  border-style:solid;
+  border-width: 1px;
+}
+.chp-sort label{
+  padding-left: 25px;
+  margin-left: 0px;
+  margin-right: 10px;
+  font-size:14px;
+  color:black;
+}
+.chp-bbbox{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.chp-bbbox span{
+  font-size:20px;
+}
+.chp-chp span{
+  font-size:14px;
+  margin-left:45px;
+  text-align:center;
+}
+.story{
+  margin-top:20px;
+  border-color:gray;
+  border-style:solid;
+  border-width: 3px;
+}
+.story-title{
+    background-color: black;
+    text-align: center;
+    
+}
+.story-title span{
+    color:white;
+    font-weight:bold;
+    font-size: 32px;
+    
+}
+.story-contain{
+  margin-top:30px;
+  margin-left:30px;
+  margin-right:30px;
+  margin-bottom: 30px;
+  
+  color:black;
+}
+.story-text{
+  margin-top:10px;
+}
+.story-contain span{
+  font-size:16px;
+  text-align: justify;
+}
+.skill{
+  margin-top:20px;
+  border-color:gray;
+  border-style:solid;
+  border-width: 3px;
+}
+.skill-contain{
+  margin-top:10px;
+  margin-bottom: 10px;
+  border-color: rgb(239,239,239);
+  border-style:solid;
+  border-width: 1px;
+}
+.skill-title{
+    background-color: black;
+    text-align: center;
+}    
+.skill-title span{
+    color:white;
+    font-weight:bold;
+    font-size: 32px;
+    
+}
+.skill-list{
+  margin:10px;
+}
+.skill-img{
+  margin-top:10px;
+  margin-left:10px;
+  margin-bottom:5px;
+  text-align: left;
+}
+.skill-name{
+  font-size: 20px;
+  margin:5px;
+  margin-left:10px;
+  text-align: left;
+}
+.skill-text{
+  margin-top:5px;
+  padding-left:10px;
+}
+.skill-name p{
+  margin:0px;
 }
