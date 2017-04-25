@@ -13,7 +13,7 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #fff;
 }
 
 p {
@@ -50,11 +50,55 @@ p {
   }
 }
 
+.button-collapse {
+  color: #fff;
+}
+
+
+.header h1 {
+  font-size: 3rem;
+  line-height: 300px;
+  color: #b6f3ed;
+}
+
+nav .brand-logo img{
+  padding-top: 5px;
+  width: 150px;
+  height: 60px;
+}
+
+.brand-logo{
+  font-family: 'Carrois Gothic SC', sans-serif;
+    font-weight: bold;
+}
+
+.icon-block .light,.game .light, footer li{
+  font-size: 17px;
+}
+
+.parallax-container h5 {
+  font-weight: normal;
+  font-size: 32px;
+}
+
+.cyan-green {
+    background-color: #009688 !important;
+}
+
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
   font-size: inherit;
+}
+
+.side-nav {
+  background-color: #26a69a;
+}
+
+.side-nav li a {
+  color: #fff;
+  font-weight: normal;
 }
 
 footer.page-footer {
