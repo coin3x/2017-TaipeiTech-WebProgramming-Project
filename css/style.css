@@ -5,7 +5,7 @@
  *
  * Made By MaterializeCSS.com
  */
-@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 
 html {
   font-family: 'Roboto', 'Noto Sans TC', sans-serif;
