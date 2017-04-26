@@ -11,11 +11,6 @@ html {
   font-family: 'Roboto', 'Noto Sans TC', sans-serif;
 }
 
-@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
-html {
-  font-family: 'Roboto', 'Noto Sans TC', sans-serif;
-}
-
 .rune-icon {
   width: 100px;
   height: 100px;
@@ -50,11 +45,6 @@ html {
   border-radius: 24px;
 }
 
-nav ul a,
-nav .brand-logo {
-  color: #444;
-}
-
 p {
   line-height: 2rem;
 }
@@ -73,6 +63,18 @@ p {
     width: 100%;
   }
 
+.parallax-img img {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -89,11 +91,92 @@ p {
   }
 }
 
+.button-collapse {
+  color: #009688 !important;
+}
+
+.header h1 {
+  font-size: 3rem;
+  line-height: 300px;
+  color: #b6f3ed;
+}
+
+nav .brand-logo img{
+  padding-top: 5px;
+  width: 150px;
+  height: 60px;
+}
+
+.side-nav li a {
+  color: #fff;
+}
+
+.hide-on-med-and-down li {
+  width: 93px;
+}
+
+.hide-on-med-and-down li a {
+  text-align: center;
+}
+
+.brand-logo{
+  font-family: 'Carrois Gothic SC', sans-serif;
+    font-weight: bold;
+}
+
+.icon-block .light,.game .light, footer li{
+  font-size: 17px;
+}
+
+.parallax-container h5 {
+  font-weight: normal;
+  font-size: 32px;
+}
+
+.cyan-green {
+    background-color: #009688 !important;
+}
+
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
   font-size: inherit;
+}
+
+.side-nav {
+  background-color: #26a69a;
+}
+
+.side-nav li a {
+  font-weight: normal;
+}
+
+.chp-path{
+  padding: 5px;
+  margin-top: 25px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.chp-path a {
+  transition: background-color s.3s;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.list-con {
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.list-con a {
+  font-size: 18px;
+  color: #2abbae !important;
 }
 
 footer.page-footer {
