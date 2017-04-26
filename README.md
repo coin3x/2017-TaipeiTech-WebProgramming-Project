@@ -7,6 +7,7 @@ This is the homework project for CSIE Web Programming Course of National Taipei 
 * Materialize 0.98.2：http://materializecss.com/
 * jQuery 3.2.1：https://jquery.com/
 * font-awesome 4.7.0：http://fontawesome.io/
+* Material ScrollTop Button https://github.com/bartholomej/material-scrolltop
 
 ## 說明
 head、header、footer 請參考 template.html
