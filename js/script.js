@@ -12,4 +12,10 @@ $(document).ready(function() {
             console.log('Scrolling End');
         }
     });
+
+    if ($('#mastery-container').length !=0 ) {
+        $(window).resize(function() {
+            console.log($(window).width());
+        });
+    }
 })
