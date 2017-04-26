@@ -15,7 +15,12 @@ $(document).ready(function() {
 
     if ($('#mastery-container').length !=0 ) {
         $(window).resize(function() {
-            console.log($(window).width());
+            let new_width = $('#mastery-container').parent().parent().parent().width();
+            let origin_width = 985;
+            let ratio = new_width / origin_width;
+            $('#mastery-container').css('transform', 'scale(' + ratio.toString() + ',' + ratio.toString() + ')');
+            $('#mastery-container').css('transform-origin', 'left top');
         });
+        $(window).resize();
     }
 })
